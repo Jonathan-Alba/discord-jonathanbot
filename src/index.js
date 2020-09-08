@@ -32,6 +32,53 @@ client.on('message', msg => {
     msg.channel.send("hablando con un humano");
     msg.react('👍');
   }
+  if (msg.content.toLocaleLowerCase() === 'klk') {
+    msg.channel.send("klk manin");
+    msg.react('👍');
+  }
+  if (msg.content.toLocaleLowerCase() === 'wey') {
+    msg.channel.send("wey klk que hace");
+    msg.react('👍');
+  }
+  if (msg.content.toLocaleLowerCase() === 'vamos a jugar') {
+    msg.channel.send("el que");
+    msg.react('👍');
+  }
+  if (msg.content.toLocaleLowerCase() === 'among us') {
+    msg.channel.send("manda el codigo");
+    msg.react('👍');
+  }  if (msg.content.toLocaleLowerCase() === 'pasa el codigo') {
+    msg.channel.send("yo no puedo soy un robot");
+    msg.react('👍');
+  }
+  if (msg.content.toLocaleLowerCase() === 'me saco') {
+    msg.channel.send("entra de nuevo");
+    msg.react('👍');
+  }
+  if (msg.content.toLocaleLowerCase() === 'yo soy el impostor') {
+    msg.channel.send("yo lo sabia");
+    msg.react('👍');
+  }
+  if (msg.content.toLocaleLowerCase() === 'tt') {
+    msg.channel.send("tt manin");
+    msg.react('👍');
+  }
+  if (msg.content.toLocaleLowerCase() === 'cree otro') {
+    msg.channel.send("crealo tu yo no puedo soy un robot");
+    msg.react('👍');
+  }
+  if (msg.content.toLocaleLowerCase() === "entra") {
+    msg.channel.send("yo no se jugar @jonathanalba me tiene que entrenar con una inteligencia artificila");
+    msg.react('👍')
+  }
+  if (msg.content.toLocaleLowerCase() === 'no me sale') {
+    msg.channel.send("sal y entra al juego");
+    msg.react('👍');
+  }
+  if (msg.content.startsWith("que hace")) {
+    msg.channel.send("esperando que tu diga algo");
+    msg.react('👍');
+}
 });
 
 client.on('ready', () => {
