@@ -19,7 +19,7 @@ client.on('message', msg => {
     msg.channel.send("hola como esta");
     msg.react('👍');
   }
-  
+
   if (msg.content.toLocaleLowerCase() === 'bien y tu') {
     msg.channel.send("bien");
     msg.react('👍');
@@ -44,10 +44,11 @@ client.on('message', msg => {
     msg.channel.send("el que");
     msg.react('👍');
   }
-  if (msg.content.toLocaleLowerCase() === 'among us') {
+  if (msg.content.toLocaleLowerCase() === 'vamos a jugar among us') {
     msg.channel.send("manda el codigo");
     msg.react('👍');
-  }  if (msg.content.toLocaleLowerCase() === 'pasa el codigo') {
+  }
+  if (msg.content.toLocaleLowerCase() === 'ok tu vas a jugart') {
     msg.channel.send("yo no puedo soy un robot");
     msg.react('👍');
   }
